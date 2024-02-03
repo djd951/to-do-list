@@ -1,7 +1,8 @@
 # to-do-list
 This is my to-do-list, you can use it to organize your life.
 
-It's very easy. 
+It's very easy.
+ 
 1°) You first have to download the directory to-do-list. 
 
 2°) Then you open your terminal and cd to the directory to-do-list. 
