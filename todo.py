@@ -28,6 +28,12 @@ class TodoList:
             print("Invalid task number.")
 
     def delete_task(self, task_number):
+        try:
+            task_number = int(task_number)
+        except ValueError:
+            print("Invalid task number.")
+            return
+
         if 1 <= task_number <= len(self.tasks):
             del self.tasks[task_number - 1]
             print("Task deleted successfully!")
