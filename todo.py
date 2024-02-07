@@ -2,12 +2,14 @@ import os
 import pickle
 
 class Task:
+# Represents a task with a title, description, and completion status.
     def __init__(self, title, description="", completed=False):
         self.title = title
         self.description = description
         self.completed = completed
 
 class TodoList:
+# Represents a list of tasks with methods to add, list, mark as completed, delete, and save tasks.
     def __init__(self):
         self.tasks = []
 
